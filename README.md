@@ -32,7 +32,7 @@ Structured Qurey Language. Allow to access a database. use ANSI and ISO standard
 - Delete records from a database
 - Update records in a database
 
-SQL Injection is a common security vulnerability that arises from letting attacker supplied data become SQL code. This happens when programmers assemble SQL queries either by string interpolation or by concatenating SQL commands with user supplied data.
+SQL injection takes advantage of web application flaws that might let a user maliciously manipulate a web application’s back-end database.SQL Injection is a common security vulnerability that arises from letting attacker supplied data become SQL code. This happens when programmers assemble SQL queries either by string interpolation or by concatenating SQL commands with user supplied data.
 
 In order to exploit the SQL injection vulnerabilities need to figure out how the query is built in order to inject  parameter in the situation that the query will remain true. The next step is to identify what kind of database is runing on the back-end in order to construct the queries accordingly.
 
